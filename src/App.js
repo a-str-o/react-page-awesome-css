@@ -14,7 +14,6 @@ class App extends React.Component {
       colorHead: "Head-container-bluenavy",
       colorBottom: "bottom-container-bluenavy",
       dark: "white",
-
     }
   }
   onShowHide = (e) => {
@@ -81,22 +80,58 @@ class App extends React.Component {
   render() {
   return (
       <div className={`App  ${this.state.dark}`}>
+
+        {/* Header */}
         <div  className={`Head-container  ${this.state.colorHead}`}>
-             <Navbar />
-             {this.state.colorHead}
+             
+            
+            <center>
+              <Navbar />
+              {this.state.colorHead}
+            </center>
           </div>
-          <div className="bottom-container">
+        {/* page content */}
+        <center>
+          <h1>hhhhh</h1>
+          <h1>this is a test</h1>
+            <h1>this is a test</h1>
+
+
+            <h1>this is a test</h1>
+
+            <h1>this is a test</h1>
+            <h1>this is a test</h1>
+            <h1>this is a test</h1>
+            <h1>this is a test</h1>
+            <h1>this is a test</h1>
+            <h1>this is a test</h1>
+
+            <h1>this is a test</h1>
+            <h1>this is a test</h1>
+            <h1>this is a test</h1>
+            <h1>this is a test</h1>
+
+            <h1>this is a test</h1>
+            <h1>this is a test</h1>
+            <h1>this is a test</h1>
+
+            <h1>this is a test</h1>
+            <h1>this is a test</h1>
+            <h1>this is a test</h1>
+        </center>
+         
+        {/* Footer */}
+          <div className={`bottom-container  ${this.state.colorBottom}`}>
             <div className="navbar-container">
                   <h1>
                     hello
                   </h1>
                 </div>
           </div>
-         
-          
-          <div className="theme-button" >
+    
+          <div className={`theme-button  ${this.state.dark}`}>
            {this.state.buttonVisible ? 
-            <div className={`magic-container  ${this.state.dark}`}>
+            <div className="magic-container">
             <div className="center">
                 <p className="text-muted mb-2">Light Theme</p>
                 <div className="flex-div">
@@ -114,11 +149,11 @@ class App extends React.Component {
                   <div className="btnC color-greysteel" onClick={this.greysteel} ></div>
                 </div>
                 <p className="text-muted mb-2">Dark Theme</p>
-                  <div className={`btnC  ${this.state.dark}`} onClick={this.dark} ></div>
+                  <div className={`btnC margin-btn ${this.state.dark}`} onClick={this.dark} ></div>
             </div>
           </div>
             : ""}
-            <div onClick={this.onShowHide} className='btn-slide'><FaMagic /></div>
+            <div onClick={this.onShowHide} className='btn-slide'><FaMagic  color= "#797777" /></div>
           </div>
       </div>
   );
