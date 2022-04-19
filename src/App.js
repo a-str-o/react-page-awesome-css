@@ -198,7 +198,8 @@ class App extends React.Component {
         </div>
 
          <div className="div-style">
-               <div className="container-text">
+           <div className="style">
+             <div className={this.state.color}>
                   <h1>La transformation digitale au service de l’entreprise</h1>
                     <h2>Votre vision, nous la réalisons</h2>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
@@ -206,13 +207,41 @@ class App extends React.Component {
                <div className="container-img">
                 <img src={Image1} alt="hero" width="800" height="500"/>
                </div>
-             </div>
+           </div>
+         </div>
+         <div className="div-style">
+           <div className="style">
+           <div className="container-img">
+                <img src={Image2} alt="hero" width="800" height="500"/>
+               </div>
+             <div className={this.state.color}>
+                  <h1>La transformation digitale au service de l’entreprise</h1>
+                    <h2>Votre vision, nous la réalisons</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+               </div>
+               
+           </div>
+         </div>
+         <div className="div-style">
+           <div className="style">
+             <div className={this.state.color}>
+                  <h1>La transformation digitale au service de l’entreprise</h1>
+                    <h2>Votre vision, nous la réalisons</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+               </div>
+               <div className="container-img">
+                <img src={Image3} alt="hero" width="800" height="500"/>
+               </div>
+           </div>
+         </div>
+
         {/* Footer */}
           <div className={`bottom-container  ${this.state.colorBottom}`}>
-            <div className="navbar-container">
-                  <h1>
-                    hello
-                  </h1>
+            <div className="Footer-container">
+                <p><a href="mailto:younes.elguer@gmail.com">younes.elguer@gmail.com</a></p>
+                <p><a href="https://www.linkedin.com/in/younes-el-guerraoui-758480127/">linkedin : Younes (ASTRO) El guerraoui</a></p>
+                <p><a href="https://github.com/astronino">github : astronino</a></p>
+                <p>Author: Younes Elguerraoui</p>
             </div>
           </div>
     

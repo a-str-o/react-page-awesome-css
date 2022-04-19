@@ -6,7 +6,18 @@
     background-color: #e7e7e7;
     margin-bottom: 100px;
     margin-top: 100px;
-
+   
+}
+.style {
+    width: 2000px;
+    display: flex;
+    margin-left: 300px;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+}
+.container-text {
+    width: 800px;
 }
 .text-center {
     margin-top: 100px;
@@ -31,7 +42,7 @@
     margin: 5px;
     background-color: whitesmoke;
     box-shadow: 0 1px 8px rgb(0 0 0 / 15%);
-   
+    border-radius: 2rem;
 }
 .text {
     color: whitesmoke;
@@ -278,7 +289,16 @@ h1 {
     background-position-y: 150px;
     margin-top: -150px;
 }
-
+.Footer-container {
+    margin-top: 700px;
+    color: whitesmoke;
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+}
+a {
+    color: whitesmoke;
+}
 @media (max-width: 991px)
 {
     .section.footer {
