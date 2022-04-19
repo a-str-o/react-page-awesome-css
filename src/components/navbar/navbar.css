@@ -1,8 +1,9 @@
 .navbar-container {
-    height: 70vh;
+  height: 300px;
+  margin-top: -20px;
 }
   nav {
-    position: fixed;
+    position: sticky;
     width: 100%;
     display: flex;
     justify-content: center;

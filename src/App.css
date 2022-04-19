@@ -1,8 +1,67 @@
 
-.text-muted {
-    color: #909090!important;
-}
+.div-style {
+    width: 100%;
+    height: 600px;
+    border-radius: -50px;
+    background-color: #e7e7e7;
+    margin-bottom: 100px;
+    margin-top: 100px;
 
+}
+.text-center {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    width: 1600px;
+}
+.info-box-item  .infobg__svg {
+    position: absolute;
+    z-index: -1;
+}
+.info-body {
+    margin: 20px;
+    margin-top: -60px;
+    bottom: 20px;
+}
+.info__text {
+    bottom: 20px;
+}
+.info-box-item {
+    width:400px;
+    height: 330px;
+    margin: 5px;
+    background-color: whitesmoke;
+    box-shadow: 0 1px 8px rgb(0 0 0 / 15%);
+   
+}
+.text {
+    color: whitesmoke;
+}
+.text-muted {
+    color: #777676!important;
+}
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    color:whitesmoke;
+    margin: 60px;
+}
+.box-container {
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    margin: 140px;
+}
+.hero-text {
+    width: 1200px;
+}
+.hero-img {
+    background-color: whitesmoke;
+    box-shadow: 0 1px 8px rgb(0 0 0 / 60%);
+    border-radius: 2rem;
+}
 .theme-button {
     position: fixed;
     right: 15px;
@@ -46,33 +105,74 @@
   }
 .color-bluenavy {
     background: #00365a;
+    fill: #00365a;
 }
 .color-blueyale {
     background: #145388;
+    fill: #145388;
 }
 .color-blueolympic{
     background: #008ecc;
+    fill: #008ecc;
 }
 .color-greenmoss {
     background: #576a3d;
+    fill: #576a3d;
 }
 .color-greenlime{
     background: #6fb327;
+    fill: #6fb327;
 }
 .color-purplemonster{
     background: #922c88;
+    fill: #922c88;
 }
 .color-orangecarrot{
     background: #ed7117;
+    fill: #ed7117;
 }
 .color-redruby{
     background: #900604;
+    fill: #900604;
 }
 .color-yellowgranola{
     background: #c0a145;
+    fill: #c0a145;
 }
 .color-greysteel{
     background: #48494b;
+    fill: #48494b;
+}
+
+.bluenavy {
+    color: #00365a;
+}
+.blueyale {
+    color: #145388;
+}
+.blueolympic{
+    color: #008ecc;
+}
+.greenmoss {
+    color: #576a3d;
+}
+.greenlime{
+    color: #6fb327;
+}
+.purplemonster{
+    color: #922c88;
+}
+.orangecarrot{
+    color: #ed7117;
+}
+.redruby{
+    color: #900604;
+}
+.yellowgranola{
+    color: #c0a145;
+}
+.greysteel{
+    color: #48494b;
 }
 
 .App {
